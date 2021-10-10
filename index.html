@@ -1,0 +1,75 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>فرم عضویت خانیک سیتی</title>
+</head>
+
+<body>
+    <div class="cotn_principal">
+        <div class="cont_centrar">
+
+            <div class="cont_login">
+                <div class="cont_info_log_sign_up">
+                    <div class="col_md_login">
+                        <div class="cont_ba_opcitiy">
+
+                            <h2>ورود</h2>
+                            <p>در صورت داشتن اکانت می توانید از این قسمت وارد شوید</p>
+                            <button class="btn_login" onclick="cambiar_login()">ورود</button>
+                        </div>
+                    </div>
+                    <div class="col_md_sign_up">
+                        <div class="cont_ba_opcitiy">
+                            <h2>عضویت</h2>
+
+
+                            <p>در صورت نداشتن اکانت می توانید عضو دوست داشتنی سایت خانیک سیتی شوید</p>
+
+                            <button class="btn_sign_up" onclick="cambiar_sign_up()">عضویت</button>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="cont_back_info">
+                    <div class="cont_img_back_grey">
+
+                    </div>
+
+                </div>
+                <div class="cont_forms">
+                    <div class="cont_img_back_">
+
+                    </div>
+                    <div class="cont_form_login">
+                        <a href="#" onclick="ocultar_login_sign_up()"><i class="material-icons">&#xE5C4;</i></a>
+                        <h2>ورود</h2>
+                        <input type="text" placeholder="ایمیل" />
+                        <input type="password" placeholder="رمز ورود" />
+                        <button class="btn_login" onclick="cambiar_login()">ورود به پروفایل</button>
+                    </div>
+
+                    <div class="cont_form_sign_up">
+                        <a href="#" onclick="ocultar_login_sign_up()"><i class="material-icons">&#xE5C4;</i></a>
+                        <h2>عضویت</h2>
+                        <input type="text" placeholder="ایمیل" />
+                        <input type="text" placeholder="نام کاربری" />
+                        <input type="password" placeholder="رمز ورود" />
+                        <input type="password" placeholder="رمز خود را تایید کنید" />
+                        <button class="btn_sign_up" onclick="cambiar_sign_up()">عضویت در سایت</button>
+
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>
